@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: #111827;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.btn {
+    background: #2563eb;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #2563eb, #1e3a8a);
+    color: white;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.highlight {
+    background: #e0e7ff;
+}
+
+.date-box {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.judge-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.judge-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111827;
+    color: white;
+}
